@@ -1,0 +1,151 @@
+header .logo{
+    position: absolute;
+    left:calc(50% - 40px);
+    top: 16px;
+}
+.container{
+    max-width: 1064px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+header nav ul li a{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+      color: #1C1B1B;
+    margin-right: 28px;
+}
+header nav ul li a:first-of-type{
+    margin-left: 0px;
+}
+header ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+header ul li a{
+    margin-left: 28px;
+}
+header ul li:last-of-type{
+    position: relative;
+    top: -1px;
+}
+
+
+
+
+.main_banner{
+
+max-height: 524px;
+margin: auto;
+    background: #F0EFEB;
+
+
+
+}
+
+.main_banner_container {
+    max-width: 534px;
+
+    padding-top: 9px;
+    padding-bottom: 24px;
+
+
+
+
+}
+.main_banner .main_banner_container h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 70px;
+    color: #000000;
+margin-bottom: 42px;
+}
+
+.main_banner .main_banner_container p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    margin-bottom: 26px;
+}
+
+.main_banner .main_banner_container a{
+    text-decoration: none;
+    padding: 8px 23px;
+    background: #000000;
+    border: 1px solid #000000;
+    border-radius: 100px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    line-height: 20px;
+       color: #FFFFFF;
+    display: inline-block;
+
+
+}
+.main_banner img {
+
+    position: relative;
+    right: -820px;
+    top: -445px;
+
+
+}
+.our_guides{
+    padding-top: 60px;
+    padding-bottom: 80px;
+}
+.our_guides_container{
+    max-width: 692px;
+    margin: auto;
+    text-align: center;
+}
+
+.our_guides_container h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+
+margin-bottom: 27px;
+    color: #000000;
+}
+
+.our_guides_container h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+margin: auto;
+    color: #000000;
+    max-width: 632px;
+    margin-bottom: 47px;
+}
+.our_guides_container p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+
+    color: #000000;
+
+}
